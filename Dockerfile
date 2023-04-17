@@ -10,3 +10,5 @@ RUN python3 /opt/dirsearch/setup.py install
 
 RUN git clone https://github.com/danielmiessler/SecLists.git /opt/SecLists
 RUN git clone https://github.com/sullo/nikto.git /opt/nikto
+
+RUN cd /tmp/ && mkdir mnt_host
